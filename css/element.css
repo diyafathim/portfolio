@@ -1,0 +1,23 @@
+/* ::first-line{ 
+    color: blue; 
+    font-size: 30px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+
+/* ::first-letter{ */
+    /* color: red; */
+    /* font-size: 30px; */
+
+/* } */
+h3::before{
+    content: "hi...";
+    color: aqua;
+}
+ /* h3::after{
+h3:before{
+    content: "hi,";
+    color: blue; */
+
+h3:hover:after{
+    content: url(/src/pink.jpg);
+    color: rebeccapurple;
+}

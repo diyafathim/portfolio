@@ -1,0 +1,13 @@
+h1:hover{
+    color: red;
+
+}
+h2:active{
+    color:blueviolet;
+    font-style: italic;
+}
+input:focus{
+border: 3px solid goldenrod;
+background-color: grey;
+border-radius: 5px;
+}
